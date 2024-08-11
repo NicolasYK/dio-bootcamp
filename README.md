@@ -32,3 +32,11 @@ Repositório para armazenar resumos do bootcamp claro da dio relacionado ao Git 
 | Exibindo suas branch e seus ultimos commits. | ```git branch -v``` |
 | Removendo uma branch. | ```git branch -d [nome da branch que deseja remover]``` |
 | Mesclando outras branchs. | ```git merge [nome da branch que deseja mesclar]``` |
+| Baixando as alterações do origin main. | ```git fetch origin main``` |
+| Vendo as diferenças entre a main e a origin. | ```git diff main origin/main``` |
+| Baixando apenas as alterações e não mesclando. | ```git merge origin/main``` |
+| Baixando um repo com uma branch diferente. | ```git clone [url do repo] -- branch [nome da branch] --single-branch``` |
+| Arquivando a modificação feita. | ```git stash``` |
+| Listando as modificações arquivadas. | ```git stash list``` |
+| Trazer as modificações feitas. | ```git stash pop``` |
+| Manter a modificação feita arquivada. | ```git stash apply``` |
