@@ -5,6 +5,7 @@ Repositório para armazenar resumos do bootcamp claro da dio relacionado ao Git 
 ## 📚 Documentação
 - [Documentação do Git](https://git-scm.com/docs)
 - [Documentação do Github](https://docs.github.com/pt)
+- [Site para montar o README](https://readme.so/pt)
 
 ## 📖 Resumos das aulas
 
