@@ -26,6 +26,9 @@ Repositório para armazenar resumos do bootcamp claro da dio relacionado ao Git 
 | Resetando para o ultimo commit. (soft) | ```git reset --soft [hash do commit]``` |
 | Resetando para o ultimo commit. (mixed/defualt) | ```git reset --mixed [hash do commit]``` |
 | Resetando para o ultimo commit e limpando as alterações feitas.(hard) | ```git reset --hard [hash do commit]``` |
-
-
-
+| Criando uma branch. | ```git checkout -b [nome da branch]``` |
+| Voltando para a sua branch. | ```git checkout [nome da sua branch]``` |
+| Exibindo suas branchs. | ```git branch```|
+| Exibindo suas branch e seus ultimos commits. | ```git branch -v``` |
+| Removendo uma branch. | ```git branch -d [nome da branch que deseja remover]``` |
+| Mesclando outras branchs. | ```git merge [nome da branch que deseja mesclar]``` |
