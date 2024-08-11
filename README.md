@@ -1,3 +1,4 @@
+
 # 🎒 Readme | Resumos do Git
 Repositório para armazenar resumos do bootcamp claro da dio relacionado ao Git e Github, isso pode ser acessado através [deste link](https://web.dio.me/track/coding-the-future-claro-java-spring-boot).
 
@@ -9,10 +10,21 @@ Repositório para armazenar resumos do bootcamp claro da dio relacionado ao Git 
 
 | Comandos básicos | Descrição | 
 |-------|---------|
-| Iniciando um git | ```git init``` |
-| Baixando um repo | ```git clone [link]``` |
-| Mesclando e att. o repo local| ```git pull origin main```  |
-| Adicionando as alterações feitas | ```git add .```  |
-| Commit com mensagem | ```git commit -m "msg"```  |
-| Subindo para o github| ```git push```  |
+| Iniciando um git. | ```git init``` |
+| Sincronizando com o repositório do github. | ```git remote add origin [link]``` |
+| Baixando um repo. | ```git clone [link]``` |
+| Mesclando e atualizando o repositório local.| ```git pull origin main```  |
+| Adicionando todas as alterações feitas. | ```git add .```  |
+| Adicionando as alterações feitas. | ```git add [nome do arquivo]``` |
+| Commit com mensagem. | ```git commit -m "msg"```  |
+| Subindo para o github. | ```git push```  |
+| Verificando o status atual. | ```git status``` |
+| Restaurando algo. | ```git restore [nome do arquivo]``` |
+| Vendo o históricos de commit. | ```git log``` |
+| Alterando a mensagem do commit. | ```git commit --amend -m "msg"``` |
+| Resetando para o ultimo commit. (soft) | ```git reset --soft [hash do commit]``` |
+| Resetando para o ultimo commit. (mixed/defualt) | ```git reset --mixed [hash do commit]``` |
+| Resetando para o ultimo commit e limpando as alterações feitas.(hard) | ```git reset --hard [hash do commit]``` |
+
+
 
