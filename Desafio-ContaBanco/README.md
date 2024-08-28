@@ -1,3 +1,4 @@
-### Fazendo o projeto de introdução a java da dio
-Foi feito um projeto que era necessário o usuário inserir no terminal seus dados e retornando os valores inseridos através de um print.
-
+### DESAFIO CONTA BANCO
+O objetivo do desafio era:
+- Fazer o usuário inserir no terminal seus dados.
+- Retornar para ele os valores inseridos através de um print.
